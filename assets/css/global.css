@@ -20,3 +20,15 @@ body {
     border: 1px solid #fff;
     border-radius: 1rem;
 }
+
+@media only screen and (min-width: 600px) {
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+
+    .main::before,
+    .main::after {
+        width: 70vw;
+    }
+}
