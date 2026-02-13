@@ -21,23 +21,23 @@
 <body>
     <main>
         <header class="header">
-            <img src="assets/images/profile_picture001.jpg" alt="" class="photo">
+            <img src="assets/images/profile_picture001.jpg" alt="Foto de perfil" class="photo" id="profile.photo">
 
-            <h1 class="title">Olá, <br>eu sou o Matheus Carvalho!</h1>
+            <h1 class="title">Olá, <br>eu sou o <span id="profile.name">Carregando...</span>!</h1>
 
             <div class="information">
-                <p class="job">Exchange student</p>
-                <p class="location">Tama-shi - JP</p>
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
                 <p class="phone">
-                    <a href="tel:(88) 9xxxx-xxxx">(88) 9xxxx-xxxx</a>
+                    <a href="tel:(88) 9xxxx-xxxx" id="profile.phone">Carregando...</a>
                 </p>
                 <p class="email">
-                    <a href="mailto:email@gmail.com">email@gmail.com</a>
+                    <a href="mailto:email@gmail.com" id="profile.email">Carregando...</a>
                 </p>
             </div>
         </header>
 
-        <section class="acordeon">
+        <section class="acordeon open">
             <button class="trigger" type="button">
                 <h2>Skills</h2>
             </button>
@@ -46,7 +46,7 @@
                 <div class="skills">
                     <section class="tools">
                         <h3>Ferramentas:</h3>
-                        <ul>
+                        <ul id="profile.skills.hardSkills">
                             <li>
                                 <img src="/assets/images/icons/dotnet.svg" alt="">
                             </li>
@@ -68,12 +68,10 @@
 
                     <section class="personal">
                         <h3>Pessoal:</h3>
-                        <ul>
-                            <li>Liderança</li>
-                            <li>Facilidade de comunicação</li>
-                            <li>Organização</li>
-                            <li>Trabalho em equipe</li>
-                            <li>Flexibilidade</li>
+                        <ul id="profile.skills.softSkills">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
                         </ul>
                     </section>
                 </div>
@@ -137,9 +135,11 @@
                     </li>
                 </ul>
             </div>
-        </section> 
+        </section>
     </main>
 
     <script src="assets/js/acordeon.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
