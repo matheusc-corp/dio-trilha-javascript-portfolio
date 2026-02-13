@@ -1,10 +1,10 @@
 {
   "name": "Matheus Carvalho",
-  "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-  "job": "Tech Lead no S3 Bank",
-  "location": "São Paulo - SP",
-  "phone": "(16) 98159-7656",
-  "email": "renanjohannsen@gmail.com",
+  "photo": "../assets/images/profile_picture001.jpg",
+  "job": "Exchange student in Japan",
+  "location": "Tama-shi - JP",
+  "phone": "(11) xxxx-xxxx",
+  "email": "matheus.carvalho.corp@gmail.com",
   "skills": {
     "hardSkills": [
       {
