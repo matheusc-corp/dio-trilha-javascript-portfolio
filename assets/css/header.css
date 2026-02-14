@@ -56,19 +56,19 @@
 }
 
 .information .job::before {
-    background-image: url('/assets/images/icons/job-position.svg');
+    background-image: url('../images/icons/job-position.svg');
 }
 
 .information .location::before {
-    background-image: url('/assets/images/icons/location.svg');
+    background-image: url('../images/icons/location.svg');
 }
 
 .information .phone::before {
-    background-image: url('/assets/images/icons/phone-contact.svg');
+    background-image: url('../images/icons/phone-contact.svg');
 }
 
 .information .email::before {
-    background-image: url('/assets/images/icons/email.svg');
+    background-image: url('../images/icons/email.svg');
 }
 
 @media only screen and (min-width: 600px) {
