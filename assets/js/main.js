@@ -54,12 +54,13 @@ function updateProfessionalExperience(profileData) {
     const experience = document.getElementById('experience')
 
     experience.innerHTML = profileData.professionalExperience.map(experience => {
+        console.log(experience)
         return `<li>
-                    <h3 class="title"${experience.name}</h3>
-                    <p class="period"${experience.period}</p>
+                    <h3 class="title">${experience.name}</h3>
+                    <p class="period">${experience.period}</p>
                     <p>${experience.description}</p>
                 </li>`
-    })
+    }).join('')
 }
 
 (async () => {
