@@ -1,14 +1,14 @@
-.experience {
+#experience {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.experience li {
+#experience li {
     margin-bottom: 1.5rem;
 }
 
-.experience li .period::before {
+#experience li .period::before {
     content: '';
     display: inline-block;
     width: 1rem;
