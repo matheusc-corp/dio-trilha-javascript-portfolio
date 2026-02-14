@@ -1,2 +1,8 @@
 https://tinypng.com/
 Otimiza arquivos de imagens, reduzindo seu peso
+
+https://github.com/digitalinnovationone/js-developer-portfolio/tree/main/data/imgs
+Banco de imagens de stacks
+
+https://www.svgrepo.com/
+Banco de imagens em svg
